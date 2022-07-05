@@ -1,0 +1,49 @@
+body {
+    /* font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container1 {
+    background-image: url(images/mainpic2.jpg);
+    width: 1440;
+    height: 900px;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.welcome-page {
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 30%;
+    right: 30%;
+    transform: -50%, -50%;
+    display: inline;
+    text-align: center;
+    color: aliceblue;
+}
+
+.welcome-page h1 {
+    font-size: 70px;
+}
+
+.welcome-page p {
+    font-size: 20px;
+
+}
+
+.linkbutton {
+
+    text-decoration: none;
+    color: aliceblue;
+    background-color: tomato;
+    padding: 10px 40px;
+    width: 900px;
+    border-radius: 10px;
+
+}
