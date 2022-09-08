@@ -1,56 +1,55 @@
 body {
-    /* font-family: 'Gantari', sans-serif;
-    font-family: 'Poppins', sans-serif; */
-    font-family: 'Gantari', sans-serif;
-    font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container1 {
-    background-image: url(images/mainpic2.jpg);
-
-    width: 1440;
-    height: 900px;
     position: relative;
-    color: aliceblue;
+    top: -70px;
+    background-image: url(images/mainpic2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+
+    color: white;
 
 }
 
 .welcome-page {
-    position: absolute;
-    top: 20%;
-    bottom: 50%;
-    left: 20%;
-    right: 20%;
-    transform: -50%, -50%;
-    display: inline;
     text-align: center;
-    color: aliceblue;
+    color: white;
 }
 
 .welcome-page h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 80px;
+    padding-top: 120px;
 }
 
 .welcome-page p {
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 
 }
 
 .linkbutton {
-
+    display: inline;
     text-decoration: none;
     color: aliceblue;
     background-color: tomato;
-    padding: 10px 40px;
+    padding: 10px 60px;
     width: 900px;
     border-radius: 10px;
 }
 
-/* .container2 {
-    display: block;
-} */
+
 div ul {
     text-decoration: none;
     display: flex;
@@ -64,27 +63,164 @@ div ul {
 
 }
 
-li {
+.list-section li {
     display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 2px solid tomato;
+    padding-top: 50px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+#selected-donate {
+    background-color: rgba(255, 99, 71, 0.26);
+    color: tomato;
+}
+
+.donation-amoun {
+    margin-top: 40px;
 }
 
 .list-section {
 
-    display: flex;
-    margin: auto;
     width: 50%;
     padding: 10px 0px;
     display: inline;
     right: 50%;
     left: 50%;
     font-size: 30px;
-    margin: 10px 0px;
+
 }
 
-input {
-    box-decoration-break: 100%;
+#donetion-container {
+    margin-top: 50px;
+}
+
+.amount-fleid {
+    margin-top: 40px;
+    width: 1050px;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.199);
+
 }
 
 div h1 {
     font-size: 41px;
+}
+
+.donetion-plan {
+    margin-top: 80px;
+}
+
+.donetion-plan>h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.donetion-plan>p {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.donation {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(218, 255, 255, 0.486);
+    border-radius: 5px;
+}
+
+.donation-family {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(255, 157, 226, 0.486);
+    border-radius: 5px;
+}
+
+.donation-book {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(254, 255, 182, 0.486);
+    border-radius: 5px;
+}
+
+#donetion-plan {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#subscribe-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#subscribe-container>h1 {
+    font-size: 40px;
+}
+
+.update-subscribe {
+    height: 300px;
+    width: 700px;
+    background-color: rgba(254, 255, 207, 0.678);
+
+
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.subscribe input {
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(185, 185, 185, 0.507);
+}
+
+.subscribe button {
+    background-color: tomato;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: rgb(17, 17, 17);
+    height: 150px;
+
+}
+
+.footer h2 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+}
+
+.footer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
 }
